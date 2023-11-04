@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: rgb(56, 24, 80);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body h1 {
+            font-size: 3rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(26, 3, 46);
+            border: 1px solid white;
+            border-radius: 20px;
+        }
+
+        nav ul {
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0px 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(172, 109, 221);
+            font-size: 15px;
+        }
+
+        .left {
+            font-size: 30px;
+
+        }
+
+        .right ul li {
+            font-size: 20px;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 120px 0px;
+        }
+
+        .firstsection>div {
+            width: 43%;
+        }
+
+        .leftsection {
+            /* background-color: blueviolet; */
+            width: auto;
+            font-size: 34px;
+            align-items: center;
+        }
+
+        .rightsection img {
+            width: 80%;
+            border: 2px solid whitesmoke;
+            border-radius: 50px;
+        }
+
+        .purple {
+            color: rgb(141, 74, 205);
+        }
+
+        .cvsection {
+            margin: 20px 15%;
+            font-size: 2rem;
+        }
+
+        .cvsection button {
+            width: 15%;
+            height: 50%;
+            font-size: 2rem;
+            border: 2px solid black;
+            border-radius: 15px;
+        }
+
+        .secondsection {
+            max-width: 8ovh;
+            margin: 20px 15%;
+            height: 60vh;
+        }
+
+        .secontsection h1 {
+            font-size: 3rem;
+        }
+
+        .thirdsection {
+            max-width: 8ovh;
+            margin: 20px 15%;
+            height: 50vh;
+        }
+
+        main hr {
+            border: 0;
+            background-color: white;
+            height: 1px;
+            margin: 30px 48px;
+        }
+
+        .imgleft img {
+            width: 25%;
+            position: relative;
+            top: -150px;
+            right: -600px;
+        }
+
+        .bottom img {
+            width: 3%;
+            display: inline;
+            position: relative;
+            left: 45%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left" id="Home">Harsh's Portfolio </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <section class="firstsection" id="about">
+            <div class="leftsection"> Hello Everyone... , My Name is<div class="purple">Harsh Agarwal</div>
+                <div>currently I am pursuing B-tech in Computer Science Enginnering from</div>
+                <div class="purple">Galgotias University,Greater Noida</div>
+                <div>  But My Hometown is </div><span class="purple">Modinagar,Ghaziabad(Uttar Pradesh)</span>
+            </div>
+            <div class="rightsection">
+                <img src="photo.jpg" alt="">
+            </div>
+
+
+        </section>
+        <section class="cvsection" id="resume">
+            <p>For more details Download my CV
+                <button><a href="cv.pdf" target="_blank">Resume</a></button>
+            </p>
+        </section>
+        <hr>
+        <section class="secondsection" id="Skills">
+            <h1>Skills</h1>
+            <hr>
+            <div class="bottomleft" >
+                <ul>
+                    <li>JAVA</li>
+                    <li>C++</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>C(Programing Language)</li>
+                </ul>
+
+            </div>
+            <div class="imgleft">
+                <img src="code2.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="thirdsection" id="project">
+            <div>
+                <h1>Projects</h1>
+                <hr>
+                <ul>
+                    <li>Hospital Management System (Using Java)</li>
+                    <li>Calcutator (Using HTML,CSS,JavaScript)</li>
+                    <li>Landing Page of GYM (using HTML,CSS,JavaScript)</li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <section class="thirdsection" id="contact">
+            <div>
+                <h1>Contact</h1>
+                <hr>
+                <ul>
+                    <li>Phone:- 7500994285</li>
+                    <li>harshaggarwal145@gmai.com</li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <footer class="bottom">
+            <a href="https://whatsapp.com/" target="_blank"> <img src="whatsapp.png" alt=""></a>
+            <a href="http://facebook.com/" target="_blank"> <img src="facebook.jpg" alt=""></a>
+            <a href="http://instagram.com/" target="_blank"><img src="instagram.png" alt=""></a>
+            <a href="http://github.com/" target="_blank"><img src="git1.png" alt=""></a>
+        </footer>
+    </main>
+</body>
+</html>
